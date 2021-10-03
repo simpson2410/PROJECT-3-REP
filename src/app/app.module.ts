@@ -10,6 +10,7 @@ import { LoginComponent } from './components/admin/login/login.component';
 import { LoginUserComponent } from './components/user/login-user/login-user.component';
 import { CarouselComponent } from './components/pages/carousel/carousel.component';
 import { HomeComponent } from './components/pages/home/home.component';
+import { ErrorComponent } from './components/pages/error/error.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { HomeComponent } from './components/pages/home/home.component';
     LoginUserComponent,
     CarouselComponent,
     HomeComponent,
+    ErrorComponent,
   ],
   imports: [
     BrowserModule,
