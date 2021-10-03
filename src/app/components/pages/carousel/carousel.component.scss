@@ -28,9 +28,6 @@ $animationSpeed: 40s;
 	overflow:hidden;
 	position: relative;
 	width: 960px;
-    position: fixed;
-    left: 0;
-    bottom: 430px;
     width: 100%;
 	&::before,
 	&::after {

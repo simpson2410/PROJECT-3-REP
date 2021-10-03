@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+
   }
   body{
     font-family: montserrat;
@@ -11,13 +12,15 @@
   nav{
     background: #0082e6;
     height: 80px;
-    width: 100%;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
   }
-  label.logo{
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    font-weight: bold;
+  .logo{
+    padding-top: 1em;
+    width: 250px;
+    height: 60px;
+
   }
   nav ul{
     float: right;
@@ -224,3 +227,4 @@ div.pullUpDown a:hover:before, div.pullUpDown a:hover:after
 {
     height: 100%;
 }
+//login
