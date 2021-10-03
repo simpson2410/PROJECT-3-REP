@@ -8,6 +8,7 @@ import { FooterComponent } from './components/pages/footer/footer.component';
 import { DashboardComponent } from './components/admin/dashboard/dashboard.component';
 import { LoginComponent } from './components/admin/login/login.component';
 import { LoginUserComponent } from './components/user/login-user/login-user.component';
+import { CarouselComponent } from './components/pages/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LoginUserComponent } from './components/user/login-user/login-user.comp
     FooterComponent,
     DashboardComponent,
     LoginComponent,
-    LoginUserComponent
+    LoginUserComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
